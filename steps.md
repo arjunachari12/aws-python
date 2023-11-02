@@ -60,5 +60,8 @@ except Exception as e:
 
 ```
 
+Challenge:
+Provision/Create s3 bucket through AWS console < br />
+Upload sample files using SDK
 
 
