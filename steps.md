@@ -17,3 +17,18 @@ Step 3: AWS configure
 Step 4: write AWS cli command to provision
 
 
+aws help
+aws ec2 help
+aws configure
+#Set us-west-2
+aws ec2 create-key-pair --key-name arjun --query 'KeyMaterial' --output text > arjun.pem
+aws ec2 describe-key-pairs --key-name arjun
+aws ec2 delete-key-pair --key-name arjun
+Copy ami from console add below
+aws ec2 run-instances --image-id ami-017fecd1353bcc96e --instance-type t2.micro --key-name arjun
+aws ec2 describe-instances --instance-ids i-0aa83e127818bc20f
+aws ec2 create-tags --resources i-5203422c --tags Key=Name,Value=MyInstance
+aws ec2 terminate-instances --instance-ids i-5203422c
+
+
+
