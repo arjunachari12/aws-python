@@ -17,9 +17,9 @@ Step 3: AWS configure <br>
 Step 4: write AWS cli command to provision <br>
 
 
-aws help
-aws ec2 help
-aws configure
+aws help <br />
+aws ec2 help <br />
+aws configure <br />
 #Set us-west-2
 aws ec2 create-key-pair --key-name arjun --query 'KeyMaterial' --output text > arjun.pem
 aws ec2 describe-key-pairs --key-name arjun
