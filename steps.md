@@ -10,11 +10,11 @@ Challenge 1:
 
 
 Challenge 2:
-Goal: Provision Ubuntu VM using AWS CLI
-Step 1: Install AWS CLI
-Step 2: Create aws keys
-Step 3: AWS configure
-Step 4: write AWS cli command to provision
+Goal: Provision Ubuntu VM using AWS CLI  <br>
+Step 1: Install AWS CLI <br>
+Step 2: Create aws keys <br>
+Step 3: AWS configure <br>
+Step 4: write AWS cli command to provision <br>
 
 
 aws help
