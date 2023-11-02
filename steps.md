@@ -41,5 +41,24 @@ AWS SDK
 AWS SDK IAM docs <br />
 https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/iam.html
 
+Create iam user
+'''
+import boto3
+
+# Initialize the IAM client
+iam = boto3.client('iam')
+
+# Specify the username for the new IAM user
+new_user_name = 'arjun2'
+
+# Create the IAM user
+try:
+    response = iam.create_user(UserName=new_user_name)
+    print(f"IAM User '{new_user_name}' created successfully")
+except Exception as e:
+    print(f"Error creating IAM User: {str(e)}")
+
+'''
+
 
 
