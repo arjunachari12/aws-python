@@ -64,4 +64,7 @@ Challenge:
 Provision/Create s3 bucket through AWS console < br />
 Upload sample files using SDK
 
+Challenge:
+Add functionality to move object from standar to standard-IA after 30 days
+Move to glacier after 365 days
 
