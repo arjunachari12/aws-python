@@ -31,4 +31,11 @@ aws ec2 create-tags --resources i-5203422c --tags Key=Name,Value=MyInstance <br 
 aws ec2 terminate-instances --instance-ids i-5203422c <br />
 
 
+AWS SDK
+1. Install VS Code <br />
+2. Install AWS CLI <br />
+3. Install Python 3.8 or later <br />
+4. Install Boto3: pip install boto3 <br />
+
+
 
