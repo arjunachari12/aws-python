@@ -38,4 +38,8 @@ AWS SDK
 4. Install Boto3: pip install boto3 <br />
 
 
+AWS SDK IAM docs <br />
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/iam.html
+
+
 
