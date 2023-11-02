@@ -42,7 +42,7 @@ AWS SDK IAM docs <br />
 https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/iam.html
 
 Create iam user
-'''
+```
 import boto3
 
 # Initialize the IAM client
@@ -58,7 +58,7 @@ try:
 except Exception as e:
     print(f"Error creating IAM User: {str(e)}")
 
-'''
+```
 
 
 
