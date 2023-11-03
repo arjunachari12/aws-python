@@ -156,4 +156,7 @@ Test {"num1": 2,
 }
 
 
+Challange: Build lambda and integrate with s3 event<br />
+https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html 
+
 
