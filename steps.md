@@ -159,4 +159,7 @@ Test {"num1": 2,
 Challange: Build lambda and integrate with s3 event<br />
 https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html 
 
+Serverless code samples
+https://github.com/awsdocs/aws-doc-sdk-examples
+https://docs.aws.amazon.com/lambda/latest/dg/service_code_examples_serverless_examples.html
 
