@@ -77,3 +77,46 @@ Chanllenge:
 3. Explore EC2 default dashboard < br />
 4. Create your own dashboard inlcude diff widgets < br />
 5. Create one alarm when CPU/Network/Memory is high which sends notiifcation
+
+Create Lambda function to calculate area, zip the code and upload and run it on aws console < br />
+
+mkdir lamda-func1  < br />
+#create a file called lambda_function.py and add this code which calculates area < br />
+```
+import json
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+def lambda_handler(event, context):
+   
+    # Get the length and width parameters from the event object. The
+    # runtime converts the event object to a Python dictionary
+    length=event['length']
+    width=event['width']
+   
+    area = calculate_area(length, width)
+    print(f"The area is {area}")
+       
+    logger.info(f"CloudWatch logs group: {context.log_group_name}")
+   
+    # return the calculated area as a JSON string
+    data = {"area": area}
+    return json.dumps(data)
+   
+def calculate_area(length, width):
+    return length*width
+
+
+```
+cd .\lamda-func1\ < br />
+mkdir package < br />
+pip install --target ./package boto3 < br />
+cd package < br />
+ zip -r ../my_deployment_package.zip . < br />
+cd .. < br />
+zip my_deployment_package.zip lambda_function.py < br />
+#Upload this zip to console and test by passing below values  < br />
+{ "length": 6,   "width": 7}
+
