@@ -128,3 +128,32 @@ Exercise: addition of 2 number, zip and create lambda with AWS CLI,
 ** USE python environment <br />
 example: python -m venv venv
 
+mkdir lambda-func2
+cd lambda-func2
+#create a file called lambda_function.py and add this code which calculates area
+```
+def lambda_handler(event, context):
+    num1 = event['num1']
+    num2 = event['num2']
+    result = num1 + num2
+    return {
+        'statusCode': 200,
+        'body': f'Sum: {result}'
+    }
+
+```
+cd lambda-func2
+python -m venv venv
+source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+pip install boto3
+zip -r ../my_deployment_package.zip .
+cd ..
+zip my_deployment_package.zip lambda_function.py
+Cd ..
+aws lambda create-function --function-name MySampleLambda --runtime python3.8 --handler lambda_function.lambda_handler --role arn:aws:iam::905392101331:role/service-role/arjun-func-role-93dycf4c --zip-file fileb://lambda-func2.zip
+Test {"num1": 2,
+    "num2":2
+}
+
+
+
