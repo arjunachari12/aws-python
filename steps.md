@@ -120,3 +120,11 @@ zip my_deployment_package.zip lambda_function.py < br />
 #Upload this zip to console and test by passing below values  < br />
 { "length": 6,   "width": 7}
 
+
+Challenge:
+
+Exercise: addition of 2 number, zip and create lambda with AWS CLI, 
+
+** USE python environment <br />
+example: python -m venv venv
+
