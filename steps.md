@@ -68,3 +68,12 @@ Challenge:
 Add functionality to move object from standar to standard-IA after 30 days
 Move to glacier after 365 days
 
+
+CloudWatch
+
+Chanllenge:
+1. Create on ec2 instance < br />
+2. Create few charts under metrics < br />
+3. Explore EC2 default dashboard < br />
+4. Create your own dashboard inlcude diff widgets < br />
+5. Create one alarm when CPU/Network/Memory is high which sends notiifcation
