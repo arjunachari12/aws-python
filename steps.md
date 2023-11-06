@@ -167,4 +167,7 @@ Exercise: API Gateway<br />
 Provision Lambda and integrate with API Gateway<br />
 Create 2 routes, integrate to same lambda<br />
 Create UAT stage<br />
-Follow this to provision Lambda and API gateway <br />https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html
+Follow this to provision Lambda and API gateway <br />https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html<br />
+
+Excercise: API Gateway, REST API <br />
+https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-from-example.html 
