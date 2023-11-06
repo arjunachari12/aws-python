@@ -165,6 +165,6 @@ https://docs.aws.amazon.com/lambda/latest/dg/service_code_examples_serverless_ex
 
 Exercise: API Gateway<br />
 Provision Lambda and integrate with API Gateway<br />
-Create 2 routes, integrate to same lambda
-Create UAT stage
-https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html
+Create 2 routes, integrate to same lambda<br />
+Create UAT stage<br />
+Follow this to provision Lambda and API gateway <br />https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html
