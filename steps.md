@@ -176,4 +176,7 @@ Exercise: Do CRUD with DynamoDB, use Console or AWS CLI or both <br />
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html<br/>
 
 Exercise: Do CRUD with DynamoDB using AWS SDK<br />
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html<br />
+
+Exercise: Implement CRUD using DynamoDB, Lambda and API Gateway<br />
+https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html#http-api-dynamo-db-create-function<br />
