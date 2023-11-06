@@ -180,3 +180,66 @@ https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.
 
 Exercise: Implement CRUD using DynamoDB, Lambda and API Gateway<br />
 https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html#http-api-dynamo-db-create-function<br />
+
+lambda function 
+
+```
+import json
+import boto3
+
+dynamodb = boto3.resource('dynamodb')
+table = dynamodb.Table('http-crud-tutorial-items')
+
+def lambda_handler(event, context):
+    body = None
+    status_code = 200
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    try:
+        route_key = event['routeKey']
+        if route_key == "DELETE /items/{id}":
+            table.delete_item(
+                Key={'id': event['pathParameters']['id']}
+            )
+            body = f"Deleted item {event['pathParameters']['id']}"
+        elif route_key == "GET /items/{id}":
+            response = table.get_item(
+                Key={'id': event['pathParameters']['id']}
+            )
+            item = response.get('Item')
+            if item is not None:
+                body = item
+            else:
+                status_code = 404
+                body = "Item not found"
+        elif route_key == "GET /items":
+            response = table.scan()
+            items = response.get('Items')
+            body = items
+        elif route_key == "PUT /items":
+            request_json = json.loads(event['body'])
+            table.put_item(
+                Item={
+                    'id': request_json['id'],
+                    'price': request_json['price'],
+                    'name': request_json['name']
+                }
+            )
+            body = f"Put item {request_json['id']}"
+        else:
+            raise Exception(f"Unsupported route: {route_key}")
+    except Exception as e:
+        status_code = 400
+        body = str(e)
+    finally:
+        body = json.dumps(str(body))
+
+    return {
+        'statusCode': status_code,
+        'body': body,
+        'headers': headers
+    }
+
+```
