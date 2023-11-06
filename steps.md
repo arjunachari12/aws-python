@@ -163,3 +163,8 @@ Serverless code samples
 https://github.com/awsdocs/aws-doc-sdk-examples
 https://docs.aws.amazon.com/lambda/latest/dg/service_code_examples_serverless_examples.html
 
+Exercise: API Gateway<br />
+Provision Lambda and integrate with API Gateway<br />
+Create 2 routes, integrate to same lambda
+Create UAT stage
+https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html
