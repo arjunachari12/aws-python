@@ -173,4 +173,7 @@ Excercise: API Gateway, REST API <br />
 https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-from-example.html  <br />
 
 Exercise: Do CRUD with DynamoDB, use Console or AWS CLI or both <br />
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html<br/>
+
+Exercise: Do CRUD with DynamoDB using AWS SDK<br />
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html
