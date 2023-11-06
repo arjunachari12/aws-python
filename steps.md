@@ -170,4 +170,7 @@ Create UAT stage<br />
 Follow this to provision Lambda and API gateway <br />https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html<br />
 
 Excercise: API Gateway, REST API <br />
-https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-from-example.html 
+https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-from-example.html  <br />
+
+Exercise: Do CRUD with DynamoDB, use Console or AWS CLI or both <br />
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html
