@@ -243,3 +243,13 @@ def lambda_handler(event, context):
     }
 
 ```
+
+Cloud Formation Teramplate<br />
+```
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "arjun2323bsdcdf"
+```
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-bucket.html<br />
