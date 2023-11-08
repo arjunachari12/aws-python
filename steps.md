@@ -340,3 +340,7 @@ output "instance_public_ip" {
 }
 
 ```
+
+Challenge: <br />
+Use AWS VPC and EC2 modules<br />
+https://developer.hashicorp.com/terraform/tutorials/modules/module-use <br />
