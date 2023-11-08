@@ -255,5 +255,8 @@ Resources:
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-bucket.html<br />
 
 Challenge:<br />
-Modify Cloudformation template to read bucket name as parameter and run in on console
+Modify Cloudformation template to read bucket name as parameter and run in on console<br />
+
+you can post your questions here<br />
+https://docs.google.com/document/d/1CwJaWuKZuFoSfl8SJmgJcj8ZZ10d6Aq-8eYgrsI65fU/edit?usp=sharing<br />
 
