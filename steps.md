@@ -273,3 +273,7 @@ Outputs:
 you can post your questions here<br />
 https://docs.google.com/document/d/1CwJaWuKZuFoSfl8SJmgJcj8ZZ10d6Aq-8eYgrsI65fU/edit?usp=sharing<br />
 
+Terraform Providers<br />
+https://registry.terraform.io/browse/providers<br />
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs<br />
+
