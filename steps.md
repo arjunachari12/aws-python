@@ -306,3 +306,14 @@ resource "aws_instance" "app_server" {
   }
 }
 ```
+Terraform commands<br />
+```
+   13  terraform -h
+   14  terraform init -h
+   15  clear
+   16  terraform init
+   17  terraform fmt
+   18  terraform validate
+   19  terraform plan
+   20  terraform apply
+```
