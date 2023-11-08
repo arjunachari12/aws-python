@@ -280,3 +280,20 @@ Terraform Providers<br />
 https://registry.terraform.io/browse/providers<br />
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs<br />
 
+Terraform provision EC2<br />
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+    region = "us-west-2"
+}
+```
