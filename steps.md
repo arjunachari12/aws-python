@@ -253,3 +253,7 @@ Resources:
       BucketName: "arjun2323bsdcdf"
 ```
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-bucket.html<br />
+
+Challenge:<br />
+Modify Cloudformation template to read bucket name as parameter and run in on console
+
