@@ -256,7 +256,20 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-b
 
 Challenge:<br />
 Modify Cloudformation template to read bucket name as parameter and run in on console<br />
-
+```
+Parameters:
+  S3bucketName:
+    Type: String 
+    Description: "Bucket Name"
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref S3bucketName
+Outputs:
+  BucketName:
+    Value: !Ref MyS3Bucket
+```
 you can post your questions here<br />
 https://docs.google.com/document/d/1CwJaWuKZuFoSfl8SJmgJcj8ZZ10d6Aq-8eYgrsI65fU/edit?usp=sharing<br />
 
