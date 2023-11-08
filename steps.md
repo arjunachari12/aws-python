@@ -271,6 +271,9 @@ Outputs:
     Value: !Ref MyS3Bucket
 ```
 you can post your questions here<br />
+
+Install Terraform<br />
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli<br />
 https://docs.google.com/document/d/1CwJaWuKZuFoSfl8SJmgJcj8ZZ10d6Aq-8eYgrsI65fU/edit?usp=sharing<br />
 
 Terraform Providers<br />
