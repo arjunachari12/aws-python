@@ -344,3 +344,8 @@ output "instance_public_ip" {
 Challenge: <br />
 Use AWS VPC and EC2 modules<br />
 https://developer.hashicorp.com/terraform/tutorials/modules/module-use <br />
+
+Calculate Cost for below architecture <br />
+https://docs.aws.amazon.com/whitepapers/latest/web-application-hosting-best-practices/an-aws-cloud-architecture-for-web-hosting.html<br />
+https://calculator.aws/<br />
+
