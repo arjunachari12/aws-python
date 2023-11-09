@@ -352,7 +352,7 @@ https://calculator.aws/<br />
 Install Docker<br />
 https://github.com/arjunachari12/install-jenkins-container/blob/main/install-docker.md<br />
 Install Jenkins<br />
-https://github.com/arjunachari12/install-jenkins-container/blob/main/jenkins2.md <br />
+https://github.com/arjunachari12/install-jenkins-container/blob/main/jenkins.md <br />
 
 Official link<br />
 https://www.jenkins.io/doc/book/installing/docker/<br />
