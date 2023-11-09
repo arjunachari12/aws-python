@@ -357,3 +357,6 @@ https://github.com/arjunachari12/install-jenkins-container/blob/main/jenkins.md 
 Official link<br />
 https://www.jenkins.io/doc/book/installing/docker/<br />
 
+
+SLides <br />
+https://docs.google.com/presentation/d/1XilqWUhiFXenk-vm4OuUjkKcWWz2tk0IMV8VS5NKxqg/edit?usp=sharing
